@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#100e0b">
+  <meta name="description" content="Koko Cafe Room — premium digital menu.">
+  <title>KOKO CAFE ROOM | Menu</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="topline"></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Koko Cafe Room home">
+      <span class="brand-mark">K</span>
+      <span class="brand-copy"><strong>KOKO</strong><small>CAFE ROOM</small></span>
+    </a>
+    <nav class="desktop-nav">
+      <a href="#home" data-i18n="home">Bosh sahifa</a>
+      <a href="#menu" data-i18n="menu">Menyu</a>
+      <a href="#location" data-i18n="location">Manzil</a>
+    </nav>
+    <div class="header-actions">
+      <a class="instagram-link" href="https://www.instagram.com/koko.rom.cafe/" target="_blank" rel="noopener">Instagram ↗</a>
+      <button class="language-switch" id="languageSwitch" type="button" aria-label="Change language">РУ</button>
+      <button class="mobile-menu-toggle" id="mobileMenuToggle" type="button" aria-label="Open menu">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-image"></div>
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <p class="eyebrow"><span></span><span data-i18n="eyebrow">TASTE THE MOMENT</span><span></span></p>
+        <h1>KOKO<br><em>CAFE ROOM</em></h1>
+        <p class="hero-description" data-i18n="heroDescription">Har bir lahzada o‘zgacha ta’m va yoqimli muhit.</p>
+        <a class="gold-button" href="#menu"><span data-i18n="exploreMenu">MENYUNI KO‘RISH</span><b>↘</b></a>
+      </div>
+      <div class="hero-side-note">EST. WITH LOVE · KOKO CAFE ROOM</div>
+      <div class="hero-bottom"><span>01</span><span class="hero-line"></span><span data-i18n="scroll">PASTGA TUSHING</span></div>
+    </section>
+
+    <section class="intro-strip">
+      <span data-i18n="introLeft">YAXSHI TA’M</span><i>✦</i><span data-i18n="introMiddle">ILIQLIK</span><i>✦</i><span data-i18n="introRight">YOQIMLI LAHZA</span>
+    </section>
+
+    <section class="menu-section section-wrap" id="menu">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow gold-text"><span></span><span data-i18n="ourSelection">OUR SELECTION</span></p>
+          <h2 data-i18n="menuTitle">Bizning <em>menyu</em></h2>
+        </div>
+        <p class="heading-note" data-i18n="menuNote">O‘zingiz yoqtirgan ta’mni tanlang.</p>
+      </div>
+      <div class="menu-toolbar">
+        <div class="category-list" id="categoryList" aria-label="Menu categories"></div>
+        <label class="search-box"><span>⌕</span><input id="searchInput" type="search" placeholder="Qidirish..." aria-label="Search menu"></label>
+      </div>
+      <div class="menu-count" id="menuCount"></div>
+      <div class="product-grid" id="productGrid"></div>
+      <p class="menu-footnote" data-i18n="priceNote">Narxlar so‘mda ko‘rsatilgan. Menyudagi mavjudlik bo‘yicha xodimlarimizdan so‘rang.</p>
+    </section>
+
+    <section class="visit-section" id="location">
+      <div class="visit-photo"></div>
+      <div class="visit-content">
+        <p class="eyebrow"><span></span><span data-i18n="findUs">FIND US</span></p>
+        <h2 data-i18n="visitTitle">Sizni <em>kutamiz.</em></h2>
+        <p class="visit-address">Amina dokon</p>
+        <p class="visit-copy" data-i18n="visitCopy">Bizga tashrif buyuring — manzilni xaritadan ko‘rishingiz mumkin.</p>
+        <a class="gold-button" href="https://maps.app.goo.gl/F2wgWKR6JeuQPUui7" target="_blank" rel="noopener"><span data-i18n="openMap">XARITADA KO‘RISH</span><b>↗</b></a>
+        <div class="contact-row">
+          <div><small data-i18n="callUs">QO‘NG‘IROQ QILING</small><a href="tel:+998500219340">+998 50 021 93 40</a></div>
+          <div><small>INSTAGRAM</small><a href="https://www.instagram.com/koko.rom.cafe/" target="_blank" rel="noopener">@koko.rom.cafe ↗</a></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand footer-brand" href="#home"><span class="brand-mark">K</span><span class="brand-copy"><strong>KOKO</strong><small>CAFE ROOM</small></span></a>
+    <p>© <span id="year"></span> Koko Cafe Room. <span data-i18n="rights">Barcha huquqlar himoyalangan.</span></p>
+    <a href="#home" class="back-top" data-i18n="backTop">YUQORIGA ↑</a>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
