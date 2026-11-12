@@ -1,2 +1,2 @@
-# yoldashbek.github.io
+# koko.github.io
 Yoldashbek's site
