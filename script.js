@@ -13,6 +13,15 @@ const menuItems = [
   {id:11, category:"drinks", price:15000, uz:"Ko‘k choy", ru:"Зелёный чай", image:"https://static.tildacdn.com/tild3232-3461-4638-a362-373161653135/green_tea.png"},
   {id:30, category:"drinks", price:20000, uz:"Mevali choy", ru:"Фруктовый чай", image:"https://thumbs.dreamstime.com/b/none-195581573.jpg?w=992"},
   {id:31, category:"drinks", price:20000, uz:"Sutli choy", ru:"Чай с молоком", image:"https://www.teanadin.ru/upload/webp/100/upload/iblock/303/5psjh8t9oxdbjyusbukuq68w6m7y4f03.webp"},
+
+  {id:32, category:"drinks", price:35000, uz:"Ays Latte", ru:"Айс Латте", image:"https://vkusvill.ru/upload/resize/1321058/1321058_1504x1044x90_c.webp"},
+  {id:33, category:"drinks", price:35000, uz:"Ays Kapuchino", ru:"Айс Капучино", image:"https://avatars.mds.yandex.net/get-vertis-journal/4469561/41659866-8506-4f7c-b411-d9bacc71c8d9.jpg/1600x1600"},
+  {id:34, category:"drinks", price:20000, uz:"Espresso", ru:"Эспрессо", image:"https://i-coffee.me/wp-content/uploads/2021/08/ChatGPT-Image-25-apr.-2026-g.-19_11_30.png"},
+  {id:35, category:"drinks", price:25000, uz:"Kapuchino", ru:"Капучино", image:"https://lungo.by/wp-content/uploads/2025/11/i-1536x1024.jpg"},
+  {id:36, category:"drinks", price:30000, uz:"Latte", ru:"Латте", image:"https://www.torrefacto.ru/upload/medialibrary/fb6/wufswbx506htlxuk4qnqwddb8i3w57kp.jpg"},
+  {id:37, category:"drinks", price:25000, uz:"Amerikano", ru:"Американо", image:"https://static.vecteezy.com/system/resources/previews/023/010/432/large_2x/the-side-angle-view-of-a-cup-of-coffee-on-the-table-with-ai-generated-free-photo.jpg"},
+
+
   {id:12, category:"hot", price:40000, uz:"Gretsiya suvlaki", ru:"Сувлак Греция", image:"https://luding.ru/upload/medialibrary/035/tiyhbaedczpr4ar6nnrtkuvv5od3mzyu.jpg"},
   {id:13, category:"fast", price:35000, uz:"Tortilyadagi shaurma", ru:"Шаурма в тортилье", image:"https://i.ytimg.com/vi/vf8gh9oLmQg/maxresdefault.jpg"},
   {id:14, category:"wok", price:40000, uz:"Tovuqli vetnamcha wok", ru:"Вок вьетнамский с курицей", image:"https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy9yZWNpcGVzLzE1NjMyNC9jb3ZlcnMvNEpKdjYzLmpwZWc.jpg"},
